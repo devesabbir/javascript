@@ -10,7 +10,7 @@
 
 
 
-var lang = "Bangla"
+var lang = "Science"
 
 function learn (topic) {
     var lang = topic
