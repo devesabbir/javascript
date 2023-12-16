@@ -9,7 +9,6 @@
  */
 
 
-
 var lang = "Science"
 
 function learn (topic) {
