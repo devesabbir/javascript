@@ -57,5 +57,28 @@ console.log(replaceText);
 
 /*
  * Tips No:7
- *
+ * Log values with variable names smartly
  */
+
+let name = "Sabbir";
+let age = 25;
+
+// console.log(`Name: ${name}, Age: ${age}`'
+/*
+ * This code snippet is using object literal shorthand in JavaScript to log values with variable names smartly.
+ */
+// console.log({ name, age });
+
+/*
+ * Tips No:8
+ * Know performance of a task
+ */
+
+let startTime = performance.now();
+
+for (let i = 0; i < 1000; i++) {
+  // console.log(i);
+}
+
+let endTime = performance.now();
+// console.log({ totalTime: endTime - startTime });
