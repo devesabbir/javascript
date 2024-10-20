@@ -1,3 +1,5 @@
+/*
+
 // array methods
 const fruits = ['apple', 'orange', 'banana', 'grape']
 
@@ -38,4 +40,31 @@ console.log(fruits) // also mutate main array
 const concatResult = fruits.concat('new value', 'new value')
 
 console.log(fruits)
-console.log(concatResult)
+console.log(concatResult) 
+
+*/
+
+
+const cities = ['Dhaka', 'Kolkata', 'Hamburg', 'New Caledonia', 'New York', 'California']
+
+// for (let i = 0; i < cities.length; i++) {
+//    console.log(cities[i])
+// }
+
+// const result = cities.forEach(c => {
+//      console.log(c)
+// })
+
+const result = cities.map(c => {
+     if (c === 'New York') {
+         return 'New York';
+     } else {
+        return 'N/A'
+     }
+})
+
+console.log(result)
+
+
+
+
